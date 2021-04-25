@@ -168,6 +168,8 @@ RandomTalk : nonoverlap
 		"\0\s[1518]\f[name,MadokaRunes]january is\f[color,238,153,164] pink.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 		
 		"\0\s[1533]\f[name,MadokaRunes]homura-chan was born this month... \f[name,default]\e"
+		
+		"\0\s[1501]\f[name,MadokaRunes]i wonder what homura-chan's doing now. \f[name,default]\e"
 	}
 	if month == 2
 	{
