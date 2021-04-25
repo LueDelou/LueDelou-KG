@@ -511,6 +511,7 @@ elseif reference0 == "f_lowe_y_quiet"
 	elseif reference0 = "Hydrate"
 	{
 		"\0\s[1532]\f[name,MadokaRunes]oooh, yeah, yeah, go get a drink!! \w5\s[1537]stay healthy, %(username)! \f[name,default]\w8\w8\e"
+		"\0\s[1537]\f[name,MadokaRunes]stay healthy, %(username)! \f[name,default]\w8\w8\e"
 	}
 
  	else //If you're switching to another Ghost.
