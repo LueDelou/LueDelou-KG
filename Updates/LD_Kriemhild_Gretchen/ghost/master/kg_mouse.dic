@@ -52,12 +52,15 @@ MouseMoveSakura
 				"\0\s[1503](You try to pet her, but she gets scared and covers her head.)\e"
 				"\0\s[1505](You pet her head. She looks dazed...)\e"
 				"\0\s[1518](You pet her on the head. She hums a happy little song to herself.)\e"
+				"\0\s[1519](You pet her on the head.) \w8\n\n\s[1530](She playfully catches your hands.)\e"
 				//Replace these with whatever petting responses you like. You can also add more dialogue here if you want, or cut them down. Though removing them entirely seems a bit counter-intuitive to all that work we've been doing.
  			}
  			elseif reference4 == "Hug" //Another area set up by the collisions in surfaces.txt. You can expand this list with as many elseifs as you need depending on how many collisions you've set up.
  			{
  				"\0\s[1519](You gently rub her back. She's not sure how to react.)\e"
  				"\0\s[1519](You gently rub her back. She seems wary.)\e"
+				"\0\s[1501](You gently rub her back. \w8\s[1508]She seems confused.)\e"
+				"\0\s[1501](You gently rub her back. \w8\s[0]She seems cool with it.)\e"
 				//Replace with appropriate dialogue as needed.
  			}
 			
@@ -210,17 +213,32 @@ MouseDoubleClickKero
  Select.HugWitch
  {
 	 "\0\s[1519](You hug the witch very carefully. She stiffens.)\e"
+	 "\0\s[1519](You hug the witch very carefully.) \w8n\n\s[1533](She looks at you adoringly.)\e"
+	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1533]\f[name,MadokaRunes]aw, you're sweet, %(username). \f[name,default]\e"
+	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1533]\f[name,MadokaRunes]thank you, %(username). i feel a little better.\f[name,default]\e"
+	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1533]\f[name,MadokaRunes]thank you, %(username). i feel a little better. \s8\s[1538]i think. \f[name,default]\e"
+	 "\0\s[1519](You hug the witch very carefully.) \w8n\n\s[1536](She carefully hugs you back.)\e"
+	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1533]\f[name,MadokaRunes]thank you, %(username).\f[name,default]\e"
  }
  
  Select.PatWitch
  {
 	 "\0\s[1501](You gently pat her head. She's not sure how to react.)\e"
 	 "\0(You try to pat her head, but she \s[1530]playfully grabs your hand and keeps it there.)\e"
+	 "\0\s[1519](You pat the witch very carefully on her head.) \w8\n\n\s[1533]\f[name,MadokaRunes]thank you, %(username).\f[name,default]\e"
+	 "\0\s[1519](You pat the witch very carefully on her head.) \w8\n\n\s[1533]\f[name,MadokaRunes]thank you, %(username). you're very sweet.\f[name,default]\e"
+	 "\0\s[1519](You pat the witch very carefully on her head.) \w8\n\n\s[1533]\f[name,MadokaRunes]aw!\f[name,default]\e"
+	 "\0\s[1519](You pat the witch very carefully on her head.) \w8\n\n\s[1534]\f[name,MadokaRunes]humans are so cute~ \f[name,default]\e"
  }
  
  Select.RuffleHair
  {
 	 "\0\s[1501](You gently ruffle her hair. She's not sure how to react...)\w8\w8\n\n\s[1529](She holds your hand there, for a little bit.)\e"
+	 "\0\s[1501](You gently ruffle her hair. She's not sure how to react...)\w8\w8\n\n\s[1530](She traps your hand there playfully.)\e"
+	 "\0\s[1501](You gently ruffle her hair.)\w8\w8\n\n\s[1530](She traps your hand there playfully.)\e"
+	 "\0\s[1504](You gently ruffle her hair. She just sort of lets it happen.)\e"
+	 "\0\s[1503](You try to ruffle her hair, but she covers her head as though you're trying to hurt her. whoops...)\e"
+	 "\0\s[1509](You try to ruffle her hair, but she flinches as though you're about to hit her. whoops...)\e"
  }
  
  Select.HandHoldies
@@ -228,6 +246,7 @@ MouseDoubleClickKero
 	 "\0\s[1519](You try to hold her hand, but she holds it away, wary.)\e"
 	 "\0\s[1532](You hold her hand. She snatches it away in surprise, but she doesn't look unhappy with you.)\e"
 	 "\0\s[1533](You hold her hand. She gently holds it to her heart.)\w8\s[1534]\f[name,MadokaRunes]friendly friend, \s[1535]precious friend~\f[name,default]\e"
+	 "\0\s[1533](You hold her hand. She's reminded of someone...)\e"
  }
 
  Select.DontDoAnything

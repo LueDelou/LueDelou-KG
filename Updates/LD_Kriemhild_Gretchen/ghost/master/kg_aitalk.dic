@@ -81,6 +81,14 @@ RandomTalk : nonoverlap
 	
 	"\0\s[1517]\f[name,MadokaRunes]%(username),%(username)~\f[name,default]\e"
 	
+	"\0\s[1533]\f[name,MadokaRunes]%(username),%(username), %(username)... \w8\n\n\f[name,default](The witch is practicing your name.)\e"
+	
+	"\0\s[1537]\f[name,MadokaRunes]hey, hey, username! \w8\n\n\s[1533]is it warm where you are? are you doing well? \w8\n\n\f[name,default]\e"
+	
+	"\0\s[1537]\f[name,MadokaRunes]hey, hey, username! \w8\n\n\s[1533]are you well where you are? are you warm? \w8\n\n\f[name,default]\e"
+	
+	"\0\s[1537]\f[name,MadokaRunes]hey, hey, username! \w8\n\n\s[1533]will you come into my paradise? \w8\n\n\f[name,default](She's once again invited you into her ''paradise''. you politely decline.) \w8\n\n\s[1501]\f[name,MadokaRunes]oh. \w8\w8\s[1504]okay. \f[name,default]\e"
+	
 	//Here, the characters are using the %(username) envelope to use the user's name. More on envelopes in word.dic. You can use any envelope you want in dialogue, practically.
 	
 	"\0\s[1517]\f[name,MadokaRunes]%(username), %(username)~\n\n\s[1501]eh? where did %(heshe) go?\n\n\s[1502]ah! there you are! \s[1518]friendly friend~ precious friend~\n\n\f[name,default](She lost you for a moment, but she knows where you are now.)\e"
@@ -311,7 +319,7 @@ RandomTalk : nonoverlap
 	
 	//Now we're going to go back to normal dialogue for a bit of a break. Feel free to rewrite this all as you like.
 	
-	"\0\s[1533]\f[name,MadokaRunes]one day %(username) will be in my paradise, too! then %(heshe)'ll be happy, too. \w8\n\n\s[1517]♪happy happy,♪ \w5\s[1518]♪wonderful world~♪  \f[name,default]\e"
+	"\0\s[1533]\f[name,MadokaRunes]one day %(username) will be in my paradise, too! then %(heshe)'ll be happy, too. \w8\n\n\s[1517]♪happy happy,♪ \w5\n\n\s[1518]♪wonderful world~♪  \f[name,default]\e"
 	
 	"\0\s[1538]\f[name,MadokaRunes]are you drinking enough water, %(username)? \f[name,default]\e"
 	

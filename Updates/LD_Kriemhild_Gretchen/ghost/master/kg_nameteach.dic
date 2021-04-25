@@ -15,7 +15,7 @@ OnTeachName
 {
 	if reference0 == "TEACHNAME" //ignore this
 		{
-		"\0\s[1505]\f[name,MadokaRunes]you want to change your name? \w8\s[1502]okay! tell me what to call you from now on, and i'll say it! i'll say it three times so i can remember, too.\n\n\f[name,default](You tell the witch you'd like to be called...)\![open,inputbox,OnNameTeach,-1]\e"
+		"\0\s[1505]\f[name,MadokaRunes]you want to change your name? \w8\s[1502]okay! tell me what to call you from now on, and i'll say it! i'll say it three times so i can remember, too.\n\n\f[name,default](Make sure to use lowercase!) \w8\n\n(You tell the witch you'd like to be called...)\![open,inputbox,OnNameTeach,-1]\e"
 		//This is the bit of dialogue you can rewrite if you want. Note that this line ends with \![open,inputbox,OnNameTeach,-1]. You may recognize this from bootend.dic. Essentially, this will lead to the next function. Make sure you don't delete that tag! The rest you can do whatever with though.
 		}
 	else
@@ -68,23 +68,33 @@ OnNameTeach
 	}
 	elseif reference0 == "madoka" //like the above, this checks to see if the user put in Triangle. Again, this is mostly to avoid confusion in dialogue between the user and the characters.
 	{
-		"\0\s[1501]\f[name,MadokaRunes]...Mado...\w8ka....\w8\n\n\s[1505]haha...\w8\s[1504]ha....\w8\n\n\s[1506]that was my name... once...\w8\s[1505]i think? \w8\n\n\s[1504]it's a cute name...\s[1501]cute... \w8\w5\s[0]cute! cute name, cute friend.. kaname? no, madoka. madoka, madoka, madoka! cute friend, silly friend...\n\n\f[name,default](well, that was... odd.)\w8\n\n\s[1501]\f[name,MadokaRunes]oh. \n\n\s[0]may i use an honorific for you? madoka, madoka...\f[name,default]\w4\n\n[half]\![*]\q[No thank you,titlenone]\n"
-		--
-		if presuffix == "masculine" //this value was defined in bootend.dic and menu.dic when the user chose their pronouns. Thus, if someone chose he/him pronouns, they would be able to choose Mr. or Master.
-		{
-		"\![*]\q[Mr.,titlemr]\n/
-		\![*]\q[Master,titlemaster]\n"
-		}
-		elseif presuffix == "feminine" //Likewise, if someone chose she/her pronouns, they could choose Ms. or Lady.
-		{
-		"\![*]\q[Ms.,titlems]\n/
-		\![*]\q[Lady,titlelady]\n"
-		}
-		-- //the titles after this are gender neutral and will appear for all users. If you want to remove the masculine and feminine titles entirely, just delete from the curly bracket one line up to the double dashes above "if presuffix == "masculine". That should leave only the neutral titles. Make sure to leave a set of double dashes above the neutral titles though. You can also just put the feminine and masculine titles in here too if you want all titles to be available to all users at all times.
-		"\![*]\q[-ssi,titlessi]\n/
-		\![*]\q[-san,titlesan]\e"
-		//Note that the final line here ends with \e instead of \n/, since it is the final option. Make sure your final option (and ONLY your final option) always ends with \e. More on that in the box below.
-		//See again that this ends with the same tag to reopen the input box. Again, replace but keep the \![open,inputbox,OnNameTeach,-1] tag at the end.
+		username = "madoka"
+		
+		"\0\s[1501]\f[name,MadokaRunes]...mado...\w8ka....\w8\n\n\s[1505]haha...\w8\s[1504]ha....\w8\n\n\s[1506]that was my name... once...\w8\s[1505]i think? \w8\n\n\s[1504]it's a cute name...\s[1501]cute... \w8\w5\s[0]cute! cute name, cute friend.. kaname? no, madoka. madoka, madoka, madoka! cute friend, silly friend...\n\n\f[name,default](well, that was... odd.)\e"
+	}
+	elseif reference0 == "homura"
+	{
+		username = "homura"
+		
+		"\0\s[1501]\f[name,MadokaRunes]...homu...\w8ra....\w8\n\n\s[1505]haha...\w8\s[1504]ha....\w8\n\n\s[1506]that was... my best friend's name...  \w8\n\n\s[1504]it's a cool name...\s[1501]... \w8\w5\s[0]it's so cool!! it means flame! like you burst up passionately or something! \n\n\f[name,default](seems that name belonged to a friend of hers... have fun, %(username).)\e"
+	}
+	elseif reference0 == "sayaka"
+	{
+		username = "sayaka"
+		
+		"\0\s[1501]\f[name,MadokaRunes]...sayaka...\w8-chan....\w8\n\n\s[1505]haha...\w8\s[1504]ha....\w8\n\n\s[1506]that was... my best friend's name... \w8 once.  \w8\n\n\s[1504]it's a nice name...\s[1501]... \w8\w5\s[0]okay! i'll call you sayaka, then. \n\n\f[name,default](seems that name belonged to a friend of hers... once.)\e"
+	}
+	elseif reference0 == "mami"
+	{
+		username = "mami"
+		
+		"\0\s[1501]\f[name,MadokaRunes]...mami...\w8\w8mami-san....\w8\n\n\s[1505]haha...\w8\s[1504]ha....\w8\n\n\s[1506]she was so good... and i couldn't... \w8 i....  \w8\n\n\s[1504]i couldn't do anything...\s[1501]... \w8\w5\s[1533]i'll protect you, mami-chan. that's a promise. \n\n\f[name,default](seems that name belonged to a friend of hers... once.)\e"
+	}
+	elseif reference0 == "kyoko"
+	{
+		username = "kyoko"
+		
+		"\0\s[1538]\f[name,MadokaRunes]wonder how she's doing now.... \w8\w8\n\n\s[1501]eh? \w8\s[1502]oh! \w5oh that's your name!!! okay! got it, got it! \w8\n\n\kyoko, kyoko, kyoko... got it! \w8\n\n\f[name,default](She'll call you kyoko from now on.)"
 	}
 	elseif reference0 == "" //This is if the user doesn't put in a name at all, since that'd also get awkward in dialogue.
 	{
