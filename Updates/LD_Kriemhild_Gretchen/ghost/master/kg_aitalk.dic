@@ -55,7 +55,6 @@ RandomTalk : nonoverlap
 {
 	//Alright, here is where all your dialogue will go. I hope you studied how to format dialogue carefully in the walkthrough, as there is little here I can help you with. You're going to have to write most of it yourself. So instead, I'll give you a set of examples to look at.
 	
-	"\0\s[0]This is a single line of dialogue for the main character. There is no response.\e"
 	
 	//Single lines of dialogue like this are simple and easy to do.
 	
