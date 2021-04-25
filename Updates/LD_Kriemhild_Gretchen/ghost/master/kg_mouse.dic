@@ -213,11 +213,11 @@ MouseDoubleClickKero
  Select.HugWitch
  {
 	 "\0\s[1519](You hug the witch very carefully. She stiffens.)\e"
-	 "\0\s[1519](You hug the witch very carefully.) \w8n\n\s[1533](She looks at you adoringly.)\e"
+	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1533](She looks at you adoringly.)\e"
 	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1533]\f[name,MadokaRunes]aw, you're sweet, %(username). \f[name,default]\e"
 	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1533]\f[name,MadokaRunes]thank you, %(username). i feel a little better.\f[name,default]\e"
 	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1533]\f[name,MadokaRunes]thank you, %(username). i feel a little better. \s8\s[1538]i think. \f[name,default]\e"
-	 "\0\s[1519](You hug the witch very carefully.) \w8n\n\s[1536](She carefully hugs you back.)\e"
+	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1536](She carefully hugs you back.)\e"
 	 "\0\s[1519](You hug the witch very carefully.) \w8\n\n\s[1533]\f[name,MadokaRunes]thank you, %(username).\f[name,default]\e"
  }
  
