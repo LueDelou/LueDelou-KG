@@ -21,4 +21,5 @@ UDT: https://ukagakadreamteam.tumblr.com/
 
 ---------------------------------------------------
 
+Ver. 1.1 - Minor Bug Patch
 Ver. 1.0 - Release

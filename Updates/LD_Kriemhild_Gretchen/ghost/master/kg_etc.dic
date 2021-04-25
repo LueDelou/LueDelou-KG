@@ -503,7 +503,7 @@ OnUpdatedataCreating
  
 OnUpdatedataCreated
  {
-	"\0\s[0]\f[name,MadokaRunes]done! i successfully made updates2.dau.\f[name,default] (Updates2.dua successfully made.)\e"
+	"\0\s[0]\f[name,MadokaRunes]done! i successfully made updates2.dau. \n\n\f[name,default] (Updates2.dua successfully made.)\e"
  }
 
  //---- OnNarCreating ------------------------------------------------------------------
@@ -519,7 +519,7 @@ OnNarCreating
  
 OnNarCreated
  {
-	"\0\s[0]\f[name,MadokaRunes]done! i successfully made updates2.dau.\f[name,default] (%(reference0)successfully made.)\e"
+	"\0\s[0]\f[name,MadokaRunes]done! i successfully made the nar.\n\n\f[name,default] (%(reference0) successfully made.)\e"
 	//reference0 here will be the filename of the nar you just created. It should drop the nar in the folder where all your ghosts are listed, ssp\ghost\.
  }
 

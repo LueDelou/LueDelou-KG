@@ -146,9 +146,9 @@ RandomTalk : nonoverlap
 	}
 	//After the if statement is done, you can continue with dialogue as normal. As you can see, you can move the ifs around in here, it doesn't really matter. You may want to stick them all in one place together if you want to keep track of them, or you can scatter them around your dialogue as you please. It's up to you. These two lines below are just normal random dialogue.
 	
-	"\0\s[1533]\f[MadokaRunes]i hope you're getting enough rest, %(username). \f[name,default]\e"
+	"\0\s[1533]\f[name,MadokaRunes]i hope you're getting enough rest, %(username). \f[name,default]\e"
 	
-	"\0\s[1508]\f[MadokaRunes]are you sleeping enough, %(username)? \f[name,default]\e"
+	"\0\s[1508]\f[name,MadokaRunes]are you sleeping enough, %(username)? \f[name,default]\e"
 	
 	//And here we're going to go back into ifs! You see, you can space out your ifs with normal dialogue if you want, as I just mentioned. Anyway, you can set up if statements to check for a lot of different things! One of the cooler ones I think are ones set to check for time. This one for example checks if the month is December.
 	
@@ -241,7 +241,7 @@ RandomTalk : nonoverlap
 	{
 		"\0\s[1518]\f[name,MadokaRunes]friday is\f[color,149,140,183] blue.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 		
-		"\0\s[1518]\f[MadokaRunes]♪s \w5a \w5y \w5a \w5k \w5a ~♪ \f[name,default]\e"
+		"\0\s[1518]\f[name,MadokaRunes]♪s \w5a \w5y \w5a \w5k \w5a ~♪ \f[name,default]\e"
 	}
 	if weekday == 6
 	{
@@ -254,31 +254,31 @@ RandomTalk : nonoverlap
 	//These ifs check for the time of day as defined in bootend.dic. Do you remember the words used for each chunk of time in GetTimeSlot? These are the same words!
 	if timeslot == "earlymorning"
 	{
-		"\0\s[1504]\f[MadokaRunes]so earlyyyyy.... \w8\n\n\f[name,default](She seems tired.)\e"
+		"\0\s[1504]\f[name,MadokaRunes]so earlyyyyy.... \w8\n\n\f[name,default](She seems tired.)\e"
 	}
 	if timeslot == "morning"
 	{
-		"\0\s[1532]\f[MadokaRunes]it's so early... \s[1517]it's pretty out! \w8\n\n\f[name,default]\e"
+		"\0\s[1532]\f[name,MadokaRunes]it's so early... \s[1517]it's pretty out! \w8\n\n\f[name,default]\e"
 	}
 	if timeslot == "lunch"
 	{
-		"\0\s[1518]\f[MadokaRunes]lunch time, lunch time~ \w8\n\n\f[name,default](She reminds you it's time to eat, for most people.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]lunch time, lunch time~ \w8\n\n\f[name,default](She reminds you it's time to eat, for most people.)\e"
 	}
 	if timeslot == "afternoon"
 	{
-		"\0\s[1538]\f[MadokaRunes]%(username), make sure you eat something if you haven't today. and drink something, too! \w8\n\n\f[name,default](The witch reminds you to drink something, and eat if you haven't already.)\e"
+		"\0\s[1538]\f[name,MadokaRunes]%(username), make sure you eat something if you haven't today. and drink something, too! \w8\n\n\f[name,default](The witch reminds you to drink something, and eat if you haven't already.)\e"
 	}
 	if timeslot == "evening"
 	{
-		"\0\s[1531]\f[MadokaRunes]it's getting late... i wonder if you can see the moon yet. \w8\n\n\s[1537] ne, ne, %(username)! \w5\s[1533]can you see the moon? is it pretty?\f[name,default]\e"
+		"\0\s[1531]\f[name,MadokaRunes]it's getting late... i wonder if you can see the moon yet. \w8\n\n\s[1537] ne, ne, %(username)! \w5\s[1533]can you see the moon? is it pretty?\f[name,default]\e"
 	}
 	if timeslot == "latenight"
 	{
-		"\0\s[151519]\f[MadokaRunes]it's so late... \w8\n\n\s[1533]%(username), have you seen the moon yet? \f[name,default]\e"
+		"\0\s[151519]\f[name,MadokaRunes]it's so late... \w8\n\n\s[1533]%(username), have you seen the moon yet? \f[name,default]\e"
 	}
 	if timeslot == "midnight"
 	{
-		"\0\s[1519]\f[MadokaRunes]it's so late out... \w8\n\n\s[1531]can you see the moon, %(username)? is it pretty? \f[name,default]\e"
+		"\0\s[1519]\f[name,MadokaRunes]it's so late out... \w8\n\n\s[1531]can you see the moon, %(username)? is it pretty? \f[name,default]\e"
 	}
 
 	if dayslot == userbirthday
@@ -310,11 +310,11 @@ RandomTalk : nonoverlap
 	
 	//Now we're going to go back to normal dialogue for a bit of a break. Feel free to rewrite this all as you like.
 	
-	"\0\s[1533]\f[MadokaRunes]one day %(username) will be in my paradise, too! then %(heshe)'ll be happy, too. \w8\n\n\s[1517]♪happy happy,♪ \w5\s[1518]♪wonderful world~♪  \f[name,default]\e"
+	"\0\s[1533]\f[name,MadokaRunes]one day %(username) will be in my paradise, too! then %(heshe)'ll be happy, too. \w8\n\n\s[1517]♪happy happy,♪ \w5\s[1518]♪wonderful world~♪  \f[name,default]\e"
 	
-	"\0\s[1538]\f[MadokaRunes]are you drinking enough water, %(username)? \f[name,default]\e"
+	"\0\s[1538]\f[name,MadokaRunes]are you drinking enough water, %(username)? \f[name,default]\e"
 	
-	"\0\s[1538]\f[MadokaRunes]i wonder who walpurgistnacht used to be... \w8\n\n\s[1519]she was so many!! \w6\s[1503]it was scary! \w8\n\n\s[1502]but everything that she sought to destroy, i'm going to protect. i'll bring them all into my paradise! \f[name,default]\e"
+	"\0\s[1538]\f[name,MadokaRunes]i wonder who walpurgistnacht used to be... \w8\n\n\s[1519]she was so many!! \w6\s[1503]it was scary! \w8\n\n\s[1502]but everything that she sought to destroy, i'm going to protect. i'll bring them all into my paradise! \f[name,default]\e"
 	
 	
 	//--Multiple Responses
