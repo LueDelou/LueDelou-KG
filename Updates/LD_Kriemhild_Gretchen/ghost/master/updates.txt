@@ -19,7 +19,6 @@ file,ghost/master/saori_cpuid.dlld13370aee8e579fe2517d789dba7c45esize=225280
 file,install.txtdff2c55703c81809927de3d0154a810bsize=939
 file,MadokaRunes-2.0.ttfa34bd82eaf6250c042b824eb33b38e2esize=117608
 file,readme.txt7d6d354b530b1b4afb78eb28dcec36dasize=978
-file,Scribbles.nar6cd44e12f4a73fa27fa84b7b3431edcasize=1787275
 file,shell/master/descript.txt5f9e236c24ab50772941b9cb43b1666dsize=5500
 file,shell/master/KG_icon.png5fd992e21271c77b60728b679620b92bsize=738
 file,shell/master/menu_background.pngc54bf7091fff2f61350d6d79c595404bsize=15329
