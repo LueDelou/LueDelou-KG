@@ -465,52 +465,52 @@ OnGhostChanging
 	
 	elseif reference0 == "Dusty"
 	{
-		"\0\s[1519]\f[name,MadokaRunes]dusty? \w8\w8\w8\s[1517]okay! have fun learning wingdings! f\[name,default]\e"
-		"\0\s[1533]\f[name,MadokaRunes]oh! i'm learning wingdings, too! \w8\n\n\s[1536]\f[name,Wingdings]K \w5A \w5T \w8\f[name,MadokaRunes]cat! \w8\n\n\s[1538]was that right? \w8\n\n\s[1502]oh!! \w5\s[1519]right, \s[1537]i'll go get dusty now. \f[name,default]\e"
-		"\0\s[1519]\f[name,MadokaRunes]if i were my real size, dusty would be \w5\s[1504]soooooooo small! \w8\n\n\s[1502]i'm huge, you know! \f[name,default]\e"
+		"\0\s[1519]\f[name,MadokaRunes]dusty? \w8\w8\w8\s[1517]okay! have fun learning wingdings! f\[name,default]\w8\w8\e"
+		"\0\s[1533]\f[name,MadokaRunes]oh! i'm learning wingdings, too! \w8\n\n\s[1536]\f[name,Wingdings]K \w5A \w5T \w8\f[name,MadokaRunes]cat! \w8\n\n\s[1538]was that right? \w8\n\n\s[1502]oh!! \w5\s[1519]right, \s[1537]i'll go get dusty now. \f[name,default]\w8\w8\e"
+		"\0\s[1519]\f[name,MadokaRunes]if i were my real size, dusty would be \w5\s[1504]soooooooo small! \w8\n\n\s[1502]i'm huge, you know! \f[name,default]\w8\w8\e"
 	}
 	
 	elseif reference0 == "Gaster"
 	{
 		"\0\s[1507](She's quietly judging you.)\e"
-		"\0\s[1507]\f[name,MadokaRunes]oh. that guy. \w8\w8\n\n\............. \w8\w8\n\n\s[1519]be good to those kids... okay? \f[name,default]\e"
-		"\0\s[1507]\f[name,Wingdings]BRINGER OF DESPAIR, YOUR DAYS ARE NUMBERS. \w5\n\n\NONE SHALL REMEMBER YOU. SUFFER A WITCH'S FATE WITH THE REST OF US. \w8\w8\n\n\f[name,MadokaRunes].................... \w8\w8\w8\s[1508]then, you will be welcome to my paradise with the others. \w8\n\n\1\s[2501]\0\s[2501]\f[name,default](what was THAT about?)\w8\w5\e"
+		"\0\s[1507]\f[name,MadokaRunes]oh. that guy. \w8\w8\n\n\............. \w8\w8\n\n\s[1519]be good to those kids... okay? \f[name,default]\w8\w8\e"
+		"\0\s[1507]\f[name,Wingdings]BRINGER OF DESPAIR, YOUR DAYS ARE NUMBERS. \w5\n\n\NONE SHALL REMEMBER YOU. SUFFER A WITCH'S FATE WITH THE REST OF US. \w8\w8\n\n\f[name,MadokaRunes].................... \w8\w8\w8\s[1508]then, you will be welcome to my paradise with the others. \w8\n\n\1\s[2501]\0\s[2501]\f[name,default](what was THAT about?)\w8\w8\w5\e"
 	}
 
 elseif reference0 == "f_lowe_y_quiet"
 	{
-		"\0\s[1538]\f[name,MadokaRunes]a flower? \f[name,default]\e"
+		"\0\s[1538]\f[name,MadokaRunes]a flower? \f[name,default]\w8\e"
 	}
 	
 	elseif reference0 == "f_lowe_y"
 	{
-		"\0\s[1538]\f[name,MadokaRunes]a flower? \f[name,default]\e"
+		"\0\s[1538]\f[name,MadokaRunes]a flower? \f[name,default]\w8\e"
 	}
 	
 	elseif reference0 == "RYS-0825"
 	{
-		"\0\s[1519]\f[name,MadokaRunes]s, s, s.... \w8\w8\s[1531]sayaka? \w8\s[1501]no. \w8\w8\n\n\s[1508]who is that? \f[name,default]\e"
-		"\0\s[1501]\f[name,MadokaRunes]i don't like that number. \w5\s[1508]it doesn't look like a name.\f[name,default]\e"
-		"\0\s[1507]\f[name,MadokaRunes]smells like despair.... \w8\w8\n\n\s[1501]oh! \w8\n\n\s[1502]oh it's just s! okay. \w5\s[1537]i'll go get him!\f[name,default]\e"
+		"\0\s[1519]\f[name,MadokaRunes]s, s, s.... \w8\w8\s[1531]sayaka? \w8\s[1501]no. \w8\w8\n\n\s[1508]who is that? \f[name,default]\w8\w8\e"
+		"\0\s[1501]\f[name,MadokaRunes]i don't like that number. \w5\s[1508]it doesn't look like a name.\f[name,default]\w8\w8\e"
+		"\0\s[1507]\f[name,MadokaRunes]smells like despair.... \w8\w8\n\n\s[1501]oh! \w8\n\n\s[1502]oh it's just s! okay. \w5\s[1537]i'll go get him!\f[name,default]\w8\w8\e"
 	}
 	
 	elseif reference0 == "MVSans"
 	{
-		"\0\s[1538]\f[name,MadokaRunes]that skeleton again? \f[name,default]\e"
-		"\0\s[1538]\f[name,MadokaRunes]do you have a crush on him or something? \f[name,default]\e"
-		"\0\s[1503]\f[name,MadokaRunes]i don't wanna have a bad time. \f[name,default]\e"
+		"\0\s[1538]\f[name,MadokaRunes]that skeleton again? \f[name,default]\w8\w8\e"
+		"\0\s[1538]\f[name,MadokaRunes]do you have a crush on him or something? \f[name,default]\w8\w8\e"
+		"\0\s[1503]\f[name,MadokaRunes]i don't wanna have a bad time. \f[name,default]\w8\w8\e"
 	}
 	
 	elseif reference0 == "Sans"
 	{
-		"\0\s[1538]\f[name,MadokaRunes]that skeleton again? \f[name,default]\e"
-		"\0\s[1538]\f[name,MadokaRunes]do you have a crush on him or something? \f[name,default]\e"
-		"\0\s[1503]\f[name,MadokaRunes]i don't wanna have a bad time. \f[name,default]\e"
+		"\0\s[1538]\f[name,MadokaRunes]that skeleton again? \f[name,default]\w8\w8\e"
+		"\0\s[1538]\f[name,MadokaRunes]do you have a crush on him or something? \f[name,default]\w8\w8\e"
+		"\0\s[1503]\f[name,MadokaRunes]i don't wanna have a bad time. \f[name,default]\w8\w8\e"
 	}
 	
 	elseif reference0 = "Hydrate"
 	{
-		"\0\s[1532]\f[name,MadokaRunes]oooh, yeah, yeah, go get a drink!! \w5\s[1537]stay healthy, %(username)! \f[name,default]\e"
+		"\0\s[1532]\f[name,MadokaRunes]oooh, yeah, yeah, go get a drink!! \w5\s[1537]stay healthy, %(username)! \f[name,default]\w8\w8\e"
 	}
 
  	else //If you're switching to another Ghost.
