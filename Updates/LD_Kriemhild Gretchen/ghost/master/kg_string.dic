@@ -26,7 +26,8 @@ On_username
 
 On_homeurl
 {
-	"https://raw.githubusercontent.com/LueDelou/LueDelou-KG/master/Updates/LD_Kriemhild-Gretchen/"
+	//"https://raw.githubusercontent.com/LueDelou/LueDelou-KG/master/Updates/LD_Kriemhild-Gretchen/"
+	"https://LueDelou.github.io/LueDelou-KG/Updates/LD_Kriemhild-Gretchen/"
 }
 
 
