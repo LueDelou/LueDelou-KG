@@ -153,7 +153,7 @@ RandomTalk : nonoverlap
 	
 	if month >= 12
 	{
-		"\0\s[1518]\f[name,MadokaRunes]december is\f[color,149,140,183] purple\f[color,default] and\f[color,167,186,138] green. \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]december is\f[color,117,85,128] purple\f[color,default] and\f[color,150,173,116] green. \f[color,default]\w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 		
 		"\0\s[1509]\f[name,MadokaRunes]cold... is it winter already?\w8\n\ncold, cold, cold.. brrr!\f[name,default]\e"
 		
@@ -165,7 +165,7 @@ RandomTalk : nonoverlap
 	
 	if month == 1
 	{
-		"\0\s[1518]\f[name,MadokaRunes]january is\f[color,243,182,190] pink.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]january is\f[color,238,153,164] pink.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 		
 		"\0\s[1533]\f[name,MadokaRunes]homura-chan was born this month... \f[name,default]\e"
 	}
@@ -175,15 +175,15 @@ RandomTalk : nonoverlap
 	}
 	if month == 3
 	{
-		"\0\s[1518]\f[name,MadokaRunes]march is\f[color,255,172,122] orange.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]march is\f[color,248,149,106] orange.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	if month == 4
 	{
-		"\0\s[1518]\f[name,MadokaRunes]april is\f[color,251,230,165] yellow.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]april is\f[color,230,191,40] yellow. \f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	if month == 5
 	{
-		"\0\s[1518]\f[name,MadokaRunes]may is\f[color,149,140,183] blue\f[color,default] and\f[color,167,186,138] green. \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]may is\f[color,109,169,188] blue\f[color,default] and\f[color,150,173,116] green. \w8\w8\n\n\s[1532]\f[color,default] \f[name,default](An.... odd assertion.)\e"
 		
 		"\0\(Did you know? The creator of this ghost was born in may!)\e)"
 		
@@ -193,31 +193,31 @@ RandomTalk : nonoverlap
 	}
 	if month == 6
 	{
-		"\0\s[1518]\f[name,MadokaRunes]june is\f[color,149,140,183] purple\f[color,default] and\f[color,149,140,183] blue. \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]june is\f[color,117,85,128] purple\f[color,default] and\f[color,109,169,188] blue. \f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 		
 		"\0\s[1533]\f[name,MadokaRunes]mami-san was born this month... \f[name,default]\e"
 	}
 	if month == 7
 	{
-		"\0\s[1518]\f[name,MadokaRunes]july is\f[color,243,182,190] pink\f[color,default] and\f[color,149,140,183] purple. \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]july is\f[color,238,153,164] pink\f[color,default] and\f[color,117,85,128] purple. \f[color,default]\w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	if month == 8
 	{
-		"\0\s[1518]\f[name,MadokaRunes]august is\f[color,177,95,111] red\f[color,default] and\f[color,243,182,190] pink. \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]august is\f[color,177,95,111] red\f[color,default] and\f[color,238,153,164] pink. \f[color,default]\w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	if month == 9
 	{
-		"\0\s[1518]\f[name,MadokaRunes]september is\f[color,255,172,122] orange\f[color,default] and\f[color,177,95,111] red. \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]september is\f[color,248,149,106] orange\f[color,default] and\f[color,177,95,111] red. \f[color,default]\w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	if month == 10
 	{
-		"\0\s[1518]\f[name,MadokaRunes]october is\f[color,251,230,165] yellow\f[color,default] and\f[color,255,172,122] orange. \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]october is\f[color,230,191,40] yellow\f[color,default] and\f[color,248,149,106] orange. \f[color,default]\w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 		
 		"\0\s[1518]\f[name,MadokaRunes]i was born this month! \w8\w8\n\n............ \w8\w8\s[1501]well. \w8\s[1508]not \f[italic,true]me, \f[italic,false]but. the me before me. you know? \f[name,default]\e"
 	}
 	if month == 11
 	{
-		"\0\s[1518]\f[name,MadokaRunes]november is\f[color,149,140,183] blue\f[color,default] and\f[color,251,230,165] yellow. \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]november is\f[color,109,169,188] blue\f[color,default] and\f[color,230,191,40] yellow. \f[color,default]\w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	//These ifs check what day of the week it is.
 	if weekday == 1
@@ -226,29 +226,29 @@ RandomTalk : nonoverlap
 	}
 	if weekday == 2
 	{
-		"\0\s[1518]\f[name,MadokaRunes]tuesday is\f[color,255,172,122] orange.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]tuesday is\f[color,248,149,106] orange.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	if weekday == 3
 	{
-		"\0\s[1518]\f[name,MadokaRunes]wednesday is\f[color,251,230,165] yellow.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]wednesday is\f[color,230,191,40] yellow.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	if weekday == 4
 	{
-		"\0\s[1518]\f[name,MadokaRunes]thursday is\f[color,167,186,138] green.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]thursday is\f[color,150,173,116] green.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	if weekday == 5
 	{
-		"\0\s[1518]\f[name,MadokaRunes]friday is\f[color,149,140,183] blue.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]friday is\f[color,109,169,188] blue.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 		
 		"\0\s[1518]\f[name,MadokaRunes]♪s \w5a \w5y \w5a \w5k \w5a ~♪ \f[name,default]\e"
 	}
 	if weekday == 6
 	{
-		"\0\s[1518]\f[name,MadokaRunes]saturday is\f[color,149,140,183] purple.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]saturday is\f[color,117,85,128] purple.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	if weekday == 7
 	{
-		"\0\s[1518]\f[name,MadokaRunes]sunday is\f[color,243,182,190] pink.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
+		"\0\s[1518]\f[name,MadokaRunes]sunday is\f[color,238,153,164] pink.\f[color,default] \w8\w8\n\n\s[1532]\f[name,default](An.... odd assertion.)\e"
 	}
 	//These ifs check for the time of day as defined in bootend.dic. Do you remember the words used for each chunk of time in GetTimeSlot? These are the same words!
 	if timeslot == "earlymorning"
@@ -290,20 +290,20 @@ RandomTalk : nonoverlap
 	//If this scares you too much, you can delete the whole thing.
 	
 	//note that this is enclosed in its own set of brackets
-	{
-	_korean = lessonkor //Here, the envelope "lessonkor" (which is in word.dic) is stored as a new temporary value called _korean. You can name the new value anything you like. As a reminder, when coding, it goes "4 = 2 + 2" and not "2 + 2 = 4". The result always comes first!
+//	{
+//	_korean = lessonkor //Here, the envelope "lessonkor" (which is in word.dic) is stored as a new temporary value called _korean. You can name the new value anything you like. As a reminder, when coding, it goes "4 = 2 + 2" and not "2 + 2 = 4". The result always comes first!
 	//If you look at lessonkor in word.dic, you'll see it goes "Korean word, meaning". So "Korean word" is the first value in that array, and "meaning" is the second. Arrays always start at 0, as a note.
-	_korword = _korean[0] //Now we make a temporary value called "_korword", which is what will store the Korean word. Since the Korean word is the first value in the array _korean which we just defined, then we can pull that value from the array with _korean[0]. [0] is telling it which entry in the array to take - in this case, the first one (again, arrays start at 0).
-	_kormean = _korean[1] //Now we make a temporary value called "_kormean", which is what will store the meaning of the Korean word. This is the second value in the array, so we can pull it out of _korean by using _korean[1].
+//	_korword = _korean[0] //Now we make a temporary value called "_korword", which is what will store the Korean word. Since the Korean word is the first value in the array _korean which we just defined, then we can pull that value from the array with _korean[0]. [0] is telling it which entry in the array to take - in this case, the first one (again, arrays start at 0).
+//	_kormean = _korean[1] //Now we make a temporary value called "_kormean", which is what will store the meaning of the Korean word. This is the second value in the array, so we can pull it out of _korean by using _korean[1].
 	
 	//Now we put it all together!
-	"\1\s[10]Here is an example of a double envelope. The Korean word is %(_korword).\w8\0\s[0]The word means %(_kormean).\e"
+//	"\1\s[10]Here is an example of a double envelope. The Korean word is %(_korword).\w8\0\s[0]The word means %(_kormean).\e"
 	
 	//As you can see here, we then use the values we set above for _korword and _kormean up there in the dialogue as our new envelopes. If you're planning on using a double envelope/array like this, study how this works very carefully! If you're good with arrays, you can do a lot with this kind of thing, but I must admit I am terrible with arrays and they're still hard for me to wrap my head around, so I don't have much advice on how to do that kind of thing.
 	//The underscores in front of korword and kormean mean that the value is temporary, and will disappear when the dialogue has finished. More on this kind of thing on the coding page of the walkthrough.
 	
 	//Additional Note - You can't test this kind of dialogue in Script Input. You'll have to wait until it comes up naturally in your ghost's random dialogue.
-	}
+//	}
 	//That's all for double envelopes! As mentioned, if this scares you, you can delete this chunk and you'll be fine.
 	
 	
@@ -383,27 +383,27 @@ RandomTalk : nonoverlap
 //Each chain function will go through each part of the chain in order even if it's in one function, until it goes to \e:chain=end which will end the chain, as you could probably guess. So you can put the entire chain dialogue into one place
 
 
-achain
-{{CHAIN
+//achain
+//{{CHAIN
 	//this will happen the first time the chain is called
-	"\0\s[0]Here is the second part of the chain.\w8\1\s[10]Will there be more?\e"
+//	"\0\s[0]Here is the second part of the chain.\w8\1\s[10]Will there be more?\e"
 	
 	//they will then go to this dialogue next
-	"\0\s[0]This is the third part of chained dialogue.\1\w8\s[10]This will lead to a fourth part.\e"
+//	"\0\s[0]This is the third part of chained dialogue.\1\w8\s[10]This will lead to a fourth part.\e"
 	
 	//this will be the last piece of dialogue in the chain, then they will go back to their normal dialogue
-	"\0\s[0]This is the fourth piece of chained dialogue.\1\w8\s[10]This is the end.\e:chain=end"
-}}CHAIN
+//	"\0\s[0]This is the fourth piece of chained dialogue.\1\w8\s[10]This is the end.\e:chain=end"
+//}}CHAIN
 
 //Pay careful attention to the CHAIN text and double brackets for these. Double brackets, CHAIN, dialogue, double brackets, CHAIN. If you are planning on making chains, I'd recommend just copying and pasting the chain example here and changing the dialogue and name of the function as you need. Less likely for mistakes to happen, you know?
 //Note also it ends with \e:chain=end, basically ending the chain.
 
-anotherchain
-{{CHAIN
-	"\0\s[0]This is the second example of chained dialogue.\1\w8\s[10]This will only have two parts.\e"
+//anotherchain
+//{{CHAIN
+//	"\0\s[0]This is the second example of chained dialogue.\1\w8\s[10]This will only have two parts.\e"
 	
-	"\0\s[0]This is the last piece of the second example of chained dialogue\1\w8\s[10]This will end here.\e:chain=end"
-}}CHAIN
+//	"\0\s[0]This is the last piece of the second example of chained dialogue\1\w8\s[10]This will end here.\e:chain=end"
+//}}CHAIN
 
 //You can make chains as long or as shot as you want! Just make sure to end the chain when you're done.
 
