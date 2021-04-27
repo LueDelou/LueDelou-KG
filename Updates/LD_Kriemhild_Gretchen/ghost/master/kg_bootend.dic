@@ -332,6 +332,8 @@ normalboottalk
 		
 		else //the last timeslot we haven't done is midnight, which is what's under here.
 		{
+			
+		"\0\s[1508]\f[name,MadokaRunes]you're up late. \w8\w8\n\n\f[name,default](Do witches sleep?)\e"
 		"\0\s[1525](She's digging through your recycling bin...) \w8\w8\n\n\s[1528]\f[name,MadokaRunes].............. \w8\w8\w8\n\n\s[1536]\f[name,defualt](Hiding it behind your back doesn't mean we didn't see it, goofball.)\e"
 		}
 	}
