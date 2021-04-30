@@ -619,5 +619,5 @@ Select.testvariable
 
 Select.checkkey
 {
-	"\1\s[2510]\0\s[1518](You check the rune key while she's distracted. Click it again to put it away.)\e"
+	"\1\s[2503]\0\s[1518](You check the rune key while she's distracted. Click it again to put it away.)\e"
 }
