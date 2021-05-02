@@ -21,6 +21,7 @@ UDT: https://ukagakadreamteam.tumblr.com/
 
 ---------------------------------------------------
 
+Ver 1.1.3 - Birthday additions
 Ver. 1.1.2 - Bug Patch, New Dialogue, Added Secrets
 Ver. 1.1 - Minor Bug Patch
 Ver. 1.0 - Release
