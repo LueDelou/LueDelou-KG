@@ -246,27 +246,59 @@ OnBoot
 	//***********************************************************************
 	
 	{
-				"\0\s[1501]\f[name,MadokaRunes] hold on. w8\w5\n\n\s[1508]it's %(bornmonthprint) %(borndayprint).\w8\n\n\s[1502]it's your birthday!! happy birthday, %(username)!\w8\n\n\s[0]birthday, birthday, happy birthday~\w8\n\n\f[name,default](The witch wishes you a happy birthday.)\e" 
+				"\0\s[1501]\f[name,MadokaRunes] hold on. w8\w5\n\n\s[1508]it's %(bornmonthprint) %(borndayprint).\w8\n\n\s[1540]it's your birthday!! happy birthday, %(username)!\w8\n\n\s[1548]birthday, birthday, happy birthday~\w8\n\n\f[name,default](The witch wishes you a happy birthday.)\e" 
 				
 				//Notice in this dialogue that there are two new envelopes, %(bornmonthprint) and %(borndayprint). These two things basically display the user's birthday - bornmonthprint is the month and borndayprint is the day. These were defined when the user put in their birthday in the menu.dic file. See word.dic for more info on envelopes.
 				//If the user didn't or hasn't put in their birthday yet, this dialogue will basically never get called. Which makes sense.
 	}
 	
-	elseif dayslot == "6month 6day" //Like above, this if statement is checking the date. It's looking for the sixth month and the sixth day.
+	elseif dayslot == "2month 22day"
+	{
+		"\0\s[1547]\f[name,MadokaRunes]homura-chan was born today!! happy birthday, homura-chan! \w8\n\n\s[1555]\f[name,default](A friend of hers was born today.)\e"
+	}
+	
+	elseif dayslot == "5month 2day" //looking for may 2nd
 	
 	//*********************Advanced User Info*******************************
 	//elseif statements always go after an if statement, and essentially are just what they sound like... if this thing happens, do this; else, if this thing happens, do this. elseifs are good if you have multiple things you want to check for in one function, like multiple days of the year as we're doing right now. elseifs go in descending order, so it'll always check if one is true, then if two is true, then if three is true, and so on.
 	//***********************************************************************
 	
 	{
-				"\0\s[0]Today is June 6th.\e"
+				"\0\s[1545]\f[name,MadokaRunes]hitomi-chan was born today!! happy birthday, hitomi-chan! \w8\n\n\s[1553]\f[name,default](A friend of hers was born today.)\e"
 	}
+	
+	elseif dayslot == "5month 9day"
+	{
+		"\0\s[1542]\f[name,MadokaRunes]kyoko was born today!! happy birthday, kyoko! \w8\n\n\s[1550]\f[name,default](A friend of hers was born today.)\e"
+	}
+	
+	elseif dayslot == "5month 12day"
+	{
+		"\0\s[1556](Whose birthday is she celebrating...?)\e"
+	}
+	
+	elseif dayslot == "6month 5day"
+	{
+		"\0\s[1544]\f[name,MadokaRunes]mami-san was born today!! happy birthday, mami-san! \w8\n\n\s[1552]\f[name,default](A friend of hers was born today.)\e"
+	}
+	
 	elseif dayslot == "7month 4day"
 	{
-				"\1\s[10]It's the fourth of July.\e"
+				"\0\s[1502]\f[name,MadokaRunes]fourth of july! \w8\n\n\s[1501]happy not being british day, i guess? \w8\s[0]good for you, america! \f[name,default]\e"
 				
 				//You can see how these basically work. You can add in new elseif statements along these same lines with your own dayslots if you want to have them say things for all sorts of days. You can also change these existing ones I put in as examples to other dates, like your character's birthdays, perhaps. This is up to you! If you don't care about this, you can delete all the elseifs and just leave the one for the user's birthday.
 	}
+	
+	elseif dayslot == "9month 20day"
+	{
+		"\0\s[1546]\f[name,MadokaRunes]sayaka-chan was born today!! happy birthday, sayaka-san! \w8\n\n\s[1554]\f[name,default](A friend of hers was born today.)\e"
+	}
+	
+	elseif dayslot == "10month 3day"
+	{
+		"\0\s[1541]\f[name,MadokaRunes]it's my birthday!! \w8\n\n\s[1549]birthday, birthday, birthday~ \f[name,default]\e"
+	}
+	
 	else
 	{
 		"%(normalboottalk)" //If none of the days above match the current date, the ghost instead will go down to the next function, normalboottalk.
